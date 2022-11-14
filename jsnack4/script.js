@@ -1,4 +1,5 @@
 let arrayNomi = ["jay", "daisy", "myrtle", "jordan", "henry", "nick", "tom", "meyer", "george"];
+
 let nomeInvitatoFesta = false;
 
 let nomeUtente = prompt("Inserisci il tuo nome");
@@ -10,9 +11,9 @@ for (let i = 0; i < arrayNomi.length; i++){
         nomeInvitatoFesta = true;
         break;
     }
-    if(!nomeInvitatoFesta){
-        console.log("Non sei stato invitato alla festa");
-    } else {
-        console.log("Puoi partecipare alla festa");
-    }
+}
+if(!nomeInvitatoFesta){
+    console.log("Non sei stato invitato alla festa");
+} else {
+    console.log("Puoi partecipare alla festa");
 }
