@@ -1,15 +1,14 @@
 
 //somma dei 10 numeri tramite un loop for (ERRORE!)
 let numero = 0;
+
 for(i=0; i<10; i++){
     let numero = parseInt(prompt("inserisci un numero intero"));
     console.log(numero);
+    let somma = numero[i] + numero[i];
+    console.log(somma);
 }
-
-let somma = numero[i] + numero[i];
 console.log(somma);
-
-
 
 
 
