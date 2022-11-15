@@ -1,4 +1,5 @@
-
+//Il software deve chiedere per 10 volte all'utente di inserire un numero.
+//Il programma stampa la somma di tutti i numeri inseriti.
 //somma dei 10 numeri tramite un loop for (ERRORE!)
 let numero = 0;
 //let arrayNumeri =[];

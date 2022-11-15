@@ -1,3 +1,5 @@
+/*creo un array vuoto. chiedi per 6 volte un numero all'utente. Se dispari inseriscilo nell'array e stampa alla fine l'array*/ 
+
 let arrayNumeri = [];
 //let numero = 0;
 
@@ -7,4 +9,6 @@ for (i = 0; i < 6; i++) {
         arrayNumeri.push(numero);
     }
 }
-console.log(arrayNumeri);
+for (let i=0; i < arrayNumeri.length; i++){
+    console.log(arrayNumeri[i]);
+}
